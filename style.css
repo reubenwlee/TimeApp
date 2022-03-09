@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFA62B;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.time-clock {
+  background: #16697A;
+  padding: 5rem 0rem;
+  position: relative;
+  color: #FFA62B;
+  font-size: 4rem;
+  font-family: 'Orbitron';
+  letter-spacing: 0.5rem;
+}
+
+.stopwatch {
+  margin-top: 5rem;
+  color: #F8F1F1;
+  font-family: 'Orbitron';
+}
+
+.stopwatch h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens,p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  margin: 0.5rem 0;
+  font-size: 3rem;
+}
+
+button{
+  border-radius: 1rem;
+  background: transparent;
+  color: #F8F1F1;
+  border: solid 1px #F8F1F1;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding: 1.2rem 0.5rem;
+  width:7rem;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover{
+  background: #F8F1F1;
+  border: solid 1px #F8F1F1;
+  color: #FFA62B;
+}
